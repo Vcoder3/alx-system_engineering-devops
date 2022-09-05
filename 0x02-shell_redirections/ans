@@ -1,0 +1,72 @@
+TASK 0
+#!/bin/bash
+echo -e "Hello, World"
+TASK 1
+#!/bin/bash
+echo '"(Ôo)'\'
+TASK 2
+#!/bin/bash
+cat /etc/passwd
+TASK 3
+#!/bin/bash
+cat /etc/passwd /etc/hosts
+TASK 4
+#!/bin/bash
+tail -n 10 /etc/passwd
+TASK 5
+#!/bin/bash
+head -n 10 /etc/passwd
+TASK 6
+#!/bin/bash
+head -n 3 iacta | tail -n 1
+TASK 7
+#!/bin/bash
+echo 'Best School' > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+TASK 8
+#!/bin/bash
+ls -la > ls_cwd_content
+TASK 9
+#!/bin/bash
+tail -n 1 iacta >> iacta
+TASK 10
+#!/bin/bash
+find . -type f -name "*.js" -delete
+TASK 11
+#!/bin/bash
+find . -type d -not -name . | wc -l
+TASK 12
+#!/bin/bash
+ls -t1 | head -n 10
+TASK 13
+#!/bin/bash
+sort | uniq -u
+TASK 14
+#!/bin/bash
+grep -i "root" /etc/passwd
+TASK 15
+#!/bin/bash
+grep -c -i "bin" /etc/passwd
+TASK 16
+#!/bin/bash
+grep -i "root" -A 3 /etc/passwd
+TASK 17
+#!/bin/bash
+grep -i -v "bin" /etc/passwd
+TASK18
+#!/bin/bash
+grep -i "^[a-z]" /etc/ssh/sshd_config
+TASK 19
+#!/bin/bash
+tr "A" "Z" | tr "c" "e"
+TASK 20
+#!/bin/bash
+tr -d "cC"
+TASK 21
+#!/bin/bash
+rev
+TASK 22 
+#!/bin/bash
+cut -d : -f 1,6 /etc/passwd | sort 
+TASK 25
+#!/bin/bash
+ cut -c 1 | tr -d '\n' | sort
